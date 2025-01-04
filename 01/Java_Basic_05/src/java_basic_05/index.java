@@ -7,8 +7,8 @@ import java.io.IOException;
 
 public class index {
 	public static void main(String[] args) {
-		String filePath = "C:/Users/IMAJIN/Documents/Java_Basic/05/2_確認問題/01/Text.txt";
-		String reversefile = "C:/Users/IMAJIN/Documents/Java_Basic/05/2_確認問題/01/reverseText.txt";
+		String filePath = "src/java_basic_05/Text.txt";
+		String reversefile = "src/java_basic_05/reverseText.txt";
 		
 		try (BufferedReader br = new BufferedReader(new FileReader(filePath));
 			 BufferedWriter bw = new BufferedWriter(new FileWriter(reversefile)))	{
